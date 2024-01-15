@@ -16,7 +16,7 @@ export const HoverEffect = ({
 }) => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
-  const renderItem = (item, idx) => (
+  const renderItem = (item : any, idx : any) => (
     <div
       onMouseEnter={() => setHoveredIndex(idx)}
       onMouseLeave={() => setHoveredIndex(null)}
