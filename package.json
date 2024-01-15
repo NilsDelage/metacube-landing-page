@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tabler/icons-react": "^2.44.0",
     "clsx": "^2.0.0",
     "framer-motion": "^10.16.16",
     "next": "14.0.4",
+    "next-videos": "^1.4.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-social-icons": "^6.7.0",
     "tailwind-merge": "^2.2.0"
   },
   "devDependencies": {
