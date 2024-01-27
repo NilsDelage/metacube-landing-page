@@ -15,21 +15,15 @@ export function TypewriterEffectSmoothDemo() {
     <div className="flex flex-col items-center justify-center h-[40rem]  ">
       {/* <TypewriterEffectSmooth words={words} /> */}
       <h1 className="text-6xl font-medium tracking-widest uppercase text-white m-4">Metacube</h1>
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
+      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base">
         Join the Community
       </p>
-      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-24">
-
-        <SocialIcon url="https://x.com/metacubeGames" bgColor="transparent" style={{ height: 100, width: 100 }} className="transition-transform duration-300 opacity-90 hover:opacity-100 hover:scale-105" />
-        <SocialIcon url="https://discord.gg/3mgyq8FN" bgColor="transparent" style={{ height: 100, width: 100 }} className="transition-transform duration-300 opacity-90 hover:opacity-100 hover:scale-105" />
-
-        {/* <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
-          Join now
-        </button>
-        <button className="w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
-          Signup
-        </button> */}
+      <div className="flex flex-row space-y-4 space-y-0 space-x-0 space-x-24">
+        <SocialIcon url="https://x.com/metacubeGames" bgColor="transparent"  style={{ height: window.innerWidth <= 600 ? 50 : 100, width: window.innerWidth <= 600 ? 64 : 96 }} className="transition-transform duration-300 opacity-90 hover:opacity-100 hover:scale-105" />
+        <SocialIcon url="https://discord.gg/3mgyq8FN" bgColor="transparent"  style={{ height: window.innerWidth <= 600 ? 50 : 100, width: window.innerWidth <= 600 ? 64 : 96 }} className="transition-transform duration-300 opacity-90 hover:opacity-100 hover:scale-105" />
       </div>
     </div>
   );
 }
+
+// style={{ height: window.innerWidth <= 600 ? 50 : 100, width: window.innerWidth <= 600 ? 50 : 100 }}
