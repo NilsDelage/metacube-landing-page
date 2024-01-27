@@ -19,8 +19,8 @@ export function TypewriterEffectSmoothDemo() {
         Join the Community
       </p>
       <div className="flex flex-row space-y-4 space-y-0 space-x-0 space-x-24">
-        <SocialIcon url="https://x.com/metacubeGames" bgColor="transparent"  style={{ height: window.innerWidth <= 600 ? 50 : 100, width: window.innerWidth <= 600 ? 64 : 96 }} className="transition-transform duration-300 opacity-90 hover:opacity-100 hover:scale-105" />
-        <SocialIcon url="https://discord.gg/3mgyq8FN" bgColor="transparent"  style={{ height: window.innerWidth <= 600 ? 50 : 100, width: window.innerWidth <= 600 ? 64 : 96 }} className="transition-transform duration-300 opacity-90 hover:opacity-100 hover:scale-105" />
+        <SocialIcon url="https://x.com/metacubeGames" bgColor="transparent"  style={{ height: 96, width: 96 }} className="transition-transform duration-300 opacity-90 hover:opacity-100 hover:scale-105" />
+        <SocialIcon url="https://discord.gg/3mgyq8FN" bgColor="transparent"  style={{ height: 96, width: 96 }} className="transition-transform duration-300 opacity-90 hover:opacity-100 hover:scale-105" />
       </div>
     </div>
   );
