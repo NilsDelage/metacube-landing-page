@@ -26,7 +26,7 @@ export default function Home() {
         <video src={require('../../public/hero-video.mp4')} autoPlay muted loop playsInline className="absolute w-full h-full object-cover z-[1]" />
 
         {/* Title - Positioned Significantly Above Center */}
-        <div className="absolute z-10 text-3xl font-medium tracking-widest uppercase text-white top-48 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute z-10 text-3xl tracking-widest uppercase top-48 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <TypewriterEffectSmoothDemo />
         </div>
         
