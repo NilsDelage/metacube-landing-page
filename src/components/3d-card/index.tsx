@@ -25,7 +25,7 @@ export function ThreeDCard() {
           >
             The first Game is a race to collect unique cards hidden in the Metacube. Those will yield special powers and abilities to the players that own them.
           </CardItem>
-          <CardItem translateZ="100" className="w-full mt-4">
+          <CardItem translateZ="40" className="w-full mt-4">
             <Image
               src="/card.png"
               height="1000"
@@ -43,7 +43,7 @@ export function ThreeDCard() {
           </CardItem>
           <div className="flex justify-between items-center">
             <CardItem
-              translateZ={80}
+              translateZ={30}
               as="div"
               className="px-4 py-2 text-xs dark:text-white justify-center hover:brightness-90"
             >
@@ -53,7 +53,7 @@ export function ThreeDCard() {
               </Link>
             </CardItem>
             <CardItem
-              translateZ={80}
+              translateZ={30}
               as="div"
               className="px-4 py-2 dark:text-white text-xs justify-center hover:brightness-90"
             >
