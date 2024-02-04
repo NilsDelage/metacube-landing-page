@@ -49,7 +49,7 @@ export function ThreeDCard() {
             >
               <Link href="https://www.argent.xyz/argent-x/" className="items-center flex flex-col" target="_blank" rel="noopener noreferrer">
                 <Image alt="argent X" src="/argentX.png" width={50} height={50} />
-                <p className="text-center w-full">Download Argent X</p>
+                <p className="text-center w-full mt-2">Download Argent X</p>
               </Link>
             </CardItem>
             <CardItem
@@ -59,7 +59,7 @@ export function ThreeDCard() {
             >
               <Link href="https://braavos.app/" className="items-center flex flex-col" target="_blank" rel="noopener noreferrer">
                 <Image alt="Braavos" src="/Braavos.png" width={50} height={50} />
-                <p className="text-center w-full">Download Braavos</p>
+                <p className="text-center w-full mt-2">Download Braavos</p>
               </Link>
             </CardItem>
           </div>
