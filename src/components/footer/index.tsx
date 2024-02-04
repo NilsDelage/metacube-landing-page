@@ -6,6 +6,7 @@ import 'react-social-icons/x'
 import 'react-social-icons/telegram'
 import 'react-social-icons/discord'
 import 'react-social-icons/github'
+import 'react-social-icons/linkedin'
 import Link from 'next/link';
 
 const Footer: React.FC = () => {
@@ -20,9 +21,11 @@ const Footer: React.FC = () => {
                     <div>
                         <h5 className="font-bold text-lg mb-2">Contact Us</h5>
                         <ul>
-                            <li className='my-2'><span className='hover:opacity-75'><SocialIcon url='https://x.com/metacubeGames' bgColor='transparent' style={{ height: 24, width: 24 }}/><Link href="https://x.com/metacubeGames">Twitter</Link></span></li>
-                            <li className='my-2'><span className='hover:opacity-75'><SocialIcon url='https://github.com/metacube-games' bgColor='transparent' style={{ height: 24, width: 24 }}/><Link href="https://github.com/metacube-games">GitHub</Link></span></li>
-                            <li className='my-2'><span className='hover:opacity-75'><SocialIcon url='https://discord.gg/3mgyq8FN' bgColor='transparent' style={{ height: 24, width: 24 }}/><Link href="https://discord.gg/3mgyq8FN">Discord</Link></span></li>
+                            <li className='my-2'><span className='hover:opacity-75'><SocialIcon url='https://x.com/metacubeGames' bgColor='transparent' style={{ height: 24, width: 24 }} target="_blank"/><Link href="https://x.com/metacubeGames" target="_blank">Twitter</Link></span></li>
+                            <li className='my-2'><span className='hover:opacity-75'><SocialIcon url='https://discord.gg/C83Ta7qYRP' bgColor='transparent' style={{ height: 24, width: 24 }} target="_blank"/><Link href="https://discord.gg/C83Ta7qYRP" target="_blank">Discord</Link></span></li>
+                            <li className='my-2'><span className='hover:opacity-75'><SocialIcon network="telegram" url='https://t.me/metacubeofficial' bgColor='transparent' style={{ height: 24, width: 24 }} target="_blank"/><Link href="https://t.me/metacubeofficial" target="_blank">Telegram</Link></span></li>
+                            <li className='my-2'><span className='hover:opacity-75'><SocialIcon url='https://github.com/metacube-games' bgColor='transparent' style={{ height: 24, width: 24 }} target="_blank"/><Link href="https://github.com/metacube-games" target="_blank">GitHub</Link></span></li>
+                            <li className='my-2'><span className='hover:opacity-75'><SocialIcon url='https://www.linkedin.com/company/metacubegames' bgColor='transparent' style={{ height: 24, width: 24 }} target="_blank" /><Link href="https://www.linkedin.com/company/metacubegames" target="_blank">LinkedIn</Link></span></li>
                         </ul>
                     </div>
                     <div>
