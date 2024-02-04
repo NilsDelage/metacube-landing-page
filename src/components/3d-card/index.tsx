@@ -37,7 +37,7 @@ export function ThreeDCard() {
           <CardItem
             as="p"
             translateZ="0"
-            className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 mt-10"
+            className="text-neutral-500 text-sm max-w-sm my-4 dark:text-neutral-300"
           >
             To collect and interact with your assets, you will need a Starknet wallet. We recommend Argent X or Braavos.
           </CardItem>
@@ -47,9 +47,9 @@ export function ThreeDCard() {
               as="div"
               className="px-4 py-2 text-xs dark:text-white justify-center hover:brightness-90"
             >
-              <Link href="https://www.argent.xyz/argent-x/" className="items-center flex flex-col" target="_blank">
+              <Link href="https://www.argent.xyz/argent-x/" className="items-center flex flex-col" target="_blank" rel="noopener noreferrer">
                 <Image alt="argent X" src="/argentX.png" width={50} height={50} />
-                <p className="mt-2">Download Argent X</p>
+                <p>Download Argent X</p>
               </Link>
             </CardItem>
             <CardItem
@@ -57,9 +57,9 @@ export function ThreeDCard() {
               as="div"
               className="px-4 py-2 dark:text-white text-xs justify-center hover:brightness-90"
             >
-              <Link href="https://braavos.app/" className="items-center flex flex-col" target="_blank">
-                <Image alt="argent X" src="/Braavos.png" width={50} height={50} />
-                <p className="mt-2">Download Braavos</p>
+              <Link href="https://braavos.app/" className="items-center flex flex-col" target="_blank" rel="noopener noreferrer">
+                <Image alt="Braavos" src="/Braavos.png" width={50} height={50} />
+                <p>Download Braavos</p>
               </Link>
             </CardItem>
           </div>
