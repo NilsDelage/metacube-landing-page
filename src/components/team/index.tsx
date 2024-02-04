@@ -8,6 +8,7 @@ const people = [
     designation: "Web Game Engineer",
     image:
       "/ppKam.webp",
+    link: "https://ch.linkedin.com/in/kamyar-taher-4380b614a"
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ const people = [
     designation: "Game Systems Engineer",
     image:
       "/ppBast.webp",
+    link:"https://ch.linkedin.com/in/bastienfaivre"
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const people = [
     designation: "Full-Stack Developer",
     image:
       "/ppNils.webp",
+    link: "https://ch.linkedin.com/in/nils-delage-934a67239"
   },
   {
     id: 4,
@@ -29,6 +32,7 @@ const people = [
     designation: "Marketing Strategist",
     image:
       "/ppDam.webp",
+    link: "https://fr.linkedin.com/in/damien-elledge-30740058"
   },
   {
     id: 5,
@@ -36,6 +40,7 @@ const people = [
     designation: "Community Manager",
     image:
       "/ppHartom.webp",
+    link: "https://twitter.com/hartomicfundz"
   },
   
 ];
