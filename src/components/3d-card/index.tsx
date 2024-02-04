@@ -47,9 +47,9 @@ export function ThreeDCard() {
               as="div"
               className="px-4 py-2 text-xs dark:text-white justify-center hover:brightness-90"
             >
-              <Link href="https://www.argent.xyz/argent-x/" className="items-center flex flex-col">
+              <Link href="https://www.argent.xyz/argent-x/" className="items-center flex flex-col" target="_blank">
                 <Image alt="argent X" src="/argentX.png" width={50} height={50} />
-                <p className="ml-2">Download Argent X</p>
+                <p className="mt-2">Download Argent X</p>
               </Link>
             </CardItem>
             <CardItem
@@ -57,9 +57,9 @@ export function ThreeDCard() {
               as="div"
               className="px-4 py-2 dark:text-white text-xs justify-center hover:brightness-90"
             >
-              <Link href="https://braavos.app/" className="items-center flex flex-col">
+              <Link href="https://braavos.app/" className="items-center flex flex-col" target="_blank">
                 <Image alt="argent X" src="/Braavos.png" width={50} height={50} />
-                <p className="ml-2">Download Braavos</p>
+                <p className="mt-2">Download Braavos</p>
               </Link>
             </CardItem>
           </div>
